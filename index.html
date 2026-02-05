@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Foxie’s Portal</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nova+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <a href="Analyze.html" class="button_containerR" data-dir="left">
+  <img src="images/main_sidebuttonAnalyze.png"
+       class="right-img-button">
+  <a href="translate.html" class="button_containerL" data-dir="right">
+  <img src="images/main_sidebuttonTranslate.png"
+       class="left-img-button">
+  </a>
+  <a href="Analyze.html" class="button-container">
+  <img src="images/button_analyze.png" alt="Button_A" class="analyze-img-button">
+  </a>
+  <a href="Translate.html" class="button-container_T">
+  <img src="images/button_translate.png" alt="Button_T" class="translate-img-button">
+  </a>
+  <div class="intro-text">
+  <h2>Welcome to my site</h2>
+  <p>You’ve found a quiet space — part portfolio, part playground.</p>
+  <p>Inside, you’ll see how I translate not just words, but moods. How I analyze not just text, but intention.</p>
+  <p>Whether you're here to explore, judge, or just enjoy the fox illustrations...you’re welcome either way. </p>
+  <p>Take your time. Ask Sumire something. Or click around — she likes it when you’re curious. 😏</p>
+  </div>
+  <div class="bot-guide">
+  <h3>What to ask Sumire: </h3>
+  <p>Hi</p>
+  <p>Translate</p>
+  <p>Analyze</p>
+  </div>
+  <div class="button-box">
+  <span class="button-label_A">Analyze</span>
+  <span class="button-label_T">Translate</span>
+  </div>
+  <div class="button-sumcont">
+  <button id="button-sumire" class="button-sumire">Knock</button>
+  </div>
+  <div id="response"></div>
+  <div id="sumire-response">
+   <div class="sumire-wrapper">  
+     <div class="sumire-container">
+      <img src="images/sumire.png" class="sumire-avatar">
+      <div class="sumire-bubble">What can I help with today?</div>
+      <div class="sumire-input-box">
+       <input id="user-input" placeholder="ask sumire...">
+       <button id="submit-button" onclick="respondToUser()">Ask</button>
+      </div>
+	 </div>
+    </div>
+   </div>
+
+<script src="js/script.js"></script>
+<script src="js/global.js"></script>
+</body>
+</html>

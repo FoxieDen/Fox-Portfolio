@@ -1,0 +1,223 @@
+:root {
+      --lavender: #b874fc;
+      --bg-light: #b874fc;
+      --text-main: #222;
+    }
+
+  body {
+  margin: 0;
+  background-color: #cc66ff; 
+  font-family: 'Oooh Baby', cursive;
+  color: #000;
+  overflow-x: hidden;
+}
+
+.main-wrapper {
+      display: flex;
+      justify-content: flex-start; 
+      align-items: flex-start;     
+      height: 100vh;
+      gap: 40px;
+      padding: 70px 220px;
+      gap: 18rem;
+	  font-size: 1.4rem;
+	  max-width: 100%;
+      box-sizing: border-box;
+  }
+  
+.image-panel img {   
+      width: 100%;  
+      height: auto;
+      display: block;	
+      border-radius: 50%;	  
+}
+
+.image-panel {
+  width: 500px;
+  position: relative;
+  flex-shrink: 0; 
+  
+}
+
+.analyze-button {
+      font-family: 'Oooh Baby', cursive;
+      position: absolute;
+      border-radius: 32px;
+	  box-shadow: 0 0 32px #6A4F73;
+      top: 150px;
+      left: 350px;
+      display: flex;
+      gap: 30px;
+	  border: 2px solid #c3cff7;
+	  font-size: 1.5rem;
+      margin-top: 2rem;
+      padding: 1rem 1.5rem;
+      background: transparent;
+      color: #c3cff7;
+	  transition: background-color 0.3s ease;
+	  backdrop-filter: blur(4px);
+    }
+
+.analyze-button:hover {
+       background: rgba(97,223,255,0.3);
+       box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+       backdrop-filter: blur(6px)
+}
+
+translation-page {
+      display: flex;
+	  flex-direction: column;
+	  align-items: flex-start;
+      justify-content: flex-start;
+	  width: 100%;
+      color: var(--text-main);
+}
+
+.right-panel {
+      flex: 1;
+	  padding:1.5rem;
+      overflow-y: auto;
+}
+.overlay-panel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 140%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(4px);
+  border-radius: 18px;
+  font-size: 1.5rem;
+  line-height: 1.8;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  z-index: 10;
+  opacity:90%;
+}
+
+.overlay-content {
+  color: #fff;
+  font-family: 'Oooh Baby', cursive;
+  font-size: 1.4rem;
+}
+
+.close-button {
+   position: absolute;
+  top: 12px;
+  right: 16px;
+  font-size: 2rem;
+  background: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  z-index: 11;
+  text-shadow: 0 0 6px rgba(0,0,0,0.7);
+}
+
+.hidden {
+  display: none;
+}
+
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  font-size: 1.5em;
+  border: none;
+  cursor: pointer;
+}
+.home-button-link {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  z-index: 10;
+  text-decoration: none;
+}
+
+.home-img-button {
+      width: 70px;
+      height: auto;
+      transition: transform 0.2s ease;
+      cursor: pointer;
+      border-radius: 50%;
+      box-shadow: 0 0 8px rgba(255, 255, 255, 0.5),
+              0 0 16px rgba(208, 128, 255, 0.6);
+      transition: 0.3s ease;
+}
+
+.home-img-button:hover {
+      transform: scale(1.05);
+      border-radius: 50%;
+      box-shadow: 0 0 8px rgba(255, 255, 255, 0.5),
+              0 0 16px rgba(208, 128, 255, 0.6);
+      transition: 0.3s ease;
+  }
+  
+.button_containerR{
+      position: absolute;
+      top: 400px;
+      left: -5px;
+      z-index: 100;
+}
+.right_button{
+      width: 4px;
+      height: auto;
+      border-radius: 100%;
+      transition: transform 0.3s ease;
+    }
+
+.right-img-button{
+      width: 130px;
+      height: auto;
+      transition: transform 0.2s ease;
+      cursor: pointer;
+      border-radius: 50%;
+      box-shadow: 0 0 8px rgba(255, 255, 255, 0.5),
+                  0 0 16px rgba(208, 128, 255, 0.6);
+      transition: 0.3s ease;
+  }
+  
+.right-img-button:hover {
+      transform: scale(1.05);
+      border-radius: 50%;
+      box-shadow: 0 0 8px rgba(255, 255, 255, 0.5),
+                  0 0 16px rgba(208, 128, 255, 0.6);
+      transition: 0.3s ease;
+  }
+  
+.button_containerL{
+      position: absolute;
+      top: 400px;
+      right: -5px;
+      z-index: 100;
+}
+.left_Button{
+      width: 70px;
+      height: auto;
+      border-radius: 100%;
+      transition: transform 0.3s ease;
+    }
+	
+.left-img-button{
+      width: 130px;
+      height: auto;
+      transition: transform 0.2s ease;
+      cursor: pointer;
+      border-radius: 50%;
+      box-shadow: 0 0 8px rgba(255, 255, 255, 0.5),
+                  0 0 16px rgba(208, 128, 255, 0.6);
+      transition: 0.3s ease;
+   }	
+  
+.left-img-button:hover {
+      transform: scale(1.05);
+      border-radius: 50%;
+      box-shadow: 0 0 8px rgba(255, 255, 255, 0.5),
+                  0 0 16px rgba(208, 128, 255, 0.6);
+      transition: 0.3s ease;
+   }
+	

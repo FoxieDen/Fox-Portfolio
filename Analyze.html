@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Translate</title>
+  <link href="https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/analyze.css" />
+  
+  </head>
+<body>
+  <a href="translate.html" class="button_containerR">
+  <img src="images/Analyze_sidebuttonTranslate.png" alt="right_Button" class="right-img-button">
+  </a>
+  <a href="index.html" class="button_containerL">
+  <img src="images/Analyze_sidebuttonhome.png" alt="left_Button" class="left-img-button">
+  </a>
+  <a href="index.html" class="Ahome-button-link">
+  <img src="images/analyze_home.png" alt="Home Button" class="Ahome-img-button">
+  </a>
+  <div class="button">
+  <span class="button-labelA">Analyze: </span>
+  </div>
+  <div class="analysis-buttons">
+    <div class="btn-container" onclick="openOverlay('psych')">
+    <img src="images/Psychological_FIXED.png" alt="Psychological">
+    <span class="hover-text">Behavioral echoes in simple words</span>
+   </div>
+   <div class="btn-container" onclick="openOverlay('char')">
+    <img src="images/Character_FIXED.png" alt="Character">
+    <span class="hover-text">Who's really speaking — and why?</span>
+   </div>
+   <div class="btn-container" onclick="openOverlay('flow')">
+    <img src="images/Workflow.png" alt="Workflow Logic">
+    <span class="hover-text">Data doesn’t lie — but it shapes perception</span>
+   </div>
+    <div id="overlay-char" class="overlay" style="display:none;">
+     <span class="close-btn" onclick="closeOverlay('char')">✖</span>
+	 <h2>Athena</h2>
+	 <div class="overlay-content1">
+      <span class="explain">
+      As daughter of Zeus in mainstream Greek mythology, Athena is the goddess of female wisdom 
+	  (symbolized by the owl), protection (aegis), the olive tree (peace), and the spear (independence and strategy).
+	  Unlike many goddesses, Athena is not associated with motherhood or romantic entanglements. Instead, she is portrayed as 
+	  Zeus’s ideal daughter: powerful, loyal, and disciplined.
+	  “She’s the woman allowed power — because she aligns with the order.”
+	  </span>
+	  <br><br>
+	  <span class="explain">
+      Her name, however, appears in Linear B tablets from the Mycenaean era, predating classical myths. Archaeological and cultural 
+	  traces link her to older pre-Olympian goddess worship, often tied to serpents, birds, and the earth. Roots of her symbolism appear
+	  in many female figures across early myths.
+      Some scholars suggest Athena and Medusa may represent a split — two aspects of an older goddess archetype.
+	  </span>
+      <br><br>  
+      <span class="explain">
+      Athena’s legacy remains powerful — not just as a goddess of strategy, but as a symbol that roles can be rewritten by time, ideology, and power — often
+      with no visible trace for those who come later.
+	  </span>
+	  <br><br>
+	  <span class="explain">
+      Athena represents more than myth — she is an archetype still used today: the loyal strategist, the cool-headed female advisor, the warrior who protects but does not rebel.
+      Stories borrow her blueprint to shape characters we instantly recognize: wise, disciplined, often emotionally restrained — allowed power because she does not threaten the structure.
+      Whether it’s a military tactician, a corporate fixer, or a quiet female mentor, Athena’s mask persists — and we respond to it, even without knowing her name.
+      </span>
+	  </p>
+     </div>	 
+    </div>
+	<div id="overlay-flow" class="overlay" style="display:none;">
+     <span class="close-btn" onclick="closeOverlay('flow')">✖</span>
+	 <div class="overlay-content">
+      <h2>Office Karma Flow</h2>
+      <div class="overlay-content1">
+      <span class="explain">
+      Information speed is crucial. Whether it’s about work details, changes, or issues — fast flow enables efficiency, speed, and a healthier work environment.
+      If information is delayed or stuck on office-side ego or pride, trust and productivity suffer.
+	  </span>
+	  <br><br>
+	  <span class="explain">
+      Quality of work and diversity of solutions should be acknowledged. Many workers perform with high precision and care, yet are overloaded or left unrewarded — 
+	  while others contribute less but are more visible.
+	  </span>
+      <br><br>  
+      <span class="explain">
+      Psychological effects must not be ignored. Often, the most visible people aren’t the most effective.
+      Small talk, flattery, or even manipulation is sometimes rewarded over silent dedication.
+      Too late, employers realize who was truly holding the structure together.
+      <br><br>
+	  </span>
+	  <span class="explain">
+      Motivation systems can either uplift or ruin workplace energy. If only loud voices or “favor currency” gets noticed, creativity and dedication suffer.
+      Many environments run on fear, exhaustion, or fake performance optics.
+      Fair communication, trust, and clean feedback systems are key to growth.
+      <br><br>
+	  <span class="explain">
+      A healthy workplace is not just efficient — it's psychologically safe.
+      </span>
+      </div>
+	 </div>
+	</div>
+    <div id="overlay-psych" class="overlay" style="display:none;">
+     <span class="close-btn" onclick="closeOverlay('psych')">✖</span>
+     <div class="overlay-content">
+      <p><strong>Memory:</strong></p>
+	  <span class="explain">
+	  You can predict how precisely people will remember... As Painful/rare vs joyful/common. 
+	  In game or creation settings, this is useful for crafting rare, memorable tutorial functions or trauma/emotion-heavy story impact.
+	  </span>
+	  </p>	    
+      <p><strong>Framing:</strong></p>
+      <span class="explain">
+      The same words can guide or control — framing isn’t what’s said, it’s what surrounds it. For example: “has to” / “must” / “you should” 
+	  all carry different tone. Intention → Frame → Interpretation is what truly shapes outcome.
+      </span>
+      </p>
+      <p><strong>Validation:</strong></p>
+	  <span class="explain">
+	  Validation is the most acceptable addiction — a way to soothe, even when no truth is present. It’s perfect for tying into performance/approval
+	  loops or fictional characters people want to align with.
+	  </span>
+	  </p>	 
+      <p><strong>Dopamine:</strong></p>
+	  <span class="explain">
+	  Triggered by novelty,art,arousal,music,games and many more....making lessons stick and rewrites memory. It tricks people to 
+	  chase after feedback loops...not the data.They’ll return not for the content, but for the dopamine spike it gives.
+   	  </span>
+	  </p>	
+      <p><strong>Reversed Psychology :</strong></p> 
+	  <span class="explain">
+      You can gain an edge by reading the needs of your target — age, gender, geography will already tell you what triggers to use.
+	  Then choose the right lever: validation, dopamine, or framing — to capture attention and tilt the market edge.
+      </span>
+	  </p>		 
+     </div>
+    </div>
+
+  </div>
+<script src="js/analyze.js"></script>
+  
+</body>
+</html>

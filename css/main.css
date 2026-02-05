@@ -1,0 +1,302 @@
+
+    body {
+      margin: 0;
+      background-color: #0a26a3; 
+      font-family: 'Nova Script', cursive;
+      color: #e0e1dd;
+    }
+	
+
+    .button-container {
+      position: absolute;
+      top: 20px;
+      left: 40px;
+      display: flex;
+      gap: 30px;
+    }
+	.button-container_T {
+      position: absolute;
+      top: 20px;
+      left: 150px;
+      display: flex;
+      gap: 30px;
+    }
+    .button-sumcont {
+	  position: absolute;
+      top: 500px;
+      right: 480px;
+      display: flex;
+	  }
+	.button-sumire:hover {
+       background-color: #081f91;
+	   }
+	.button-sumire {
+	  background-color: transparent;
+      color: #0a26a3;
+      padding: 12px 24px;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+	  font-family: 'Nova Script', cursive;
+      transition: background-color 0.3s ease;
+	}
+	#button-sumire{
+	}
+    .button_A {
+      background-color: #020e42;
+      color: #61dfff;
+      padding: 12px 24px;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+	  font-family: 'Nova Script', cursive;
+      transition: background-color 0.3s ease;
+    }
+	.analyze-img-button {
+      width: 70px;
+      height: auto;
+      transition: transform 0.2s ease;
+      cursor: pointer;
+      border-radius: 30%;
+      box-shadow: 0 0 8px rgba(255, 255, 255, 0.5),
+              0 0 16px rgba(208, 128, 255, 0.6);
+      transition: 0.3s ease;
+    }
+    .analyze-img-button:hover {
+      transform: scale(1.05);
+      border-radius: 50%;
+      box-shadow: 0 0 8px rgba(255, 255, 255, 0.5),
+              0 0 16px rgba(208, 128, 255, 0.6);
+      transition: 0.3s ease;
+    }
+	.button-label_T {
+      margin-top: 6px;
+      font-size: 16px;
+      font-family:'Nova Script', cursive;
+      color: #cc66ff; 
+      text-shadow: 0 0 4px #000000aa; 
+    }
+	.button-label_A {
+      margin-top: 6px;
+      font-size: 16px;
+      font-family: 'Nova Script', cursive;
+      color: #9bdcfa; 
+      text-shadow: 0 0 4px #000000aa; 
+    }
+	.button-box_A {
+      position: absolute;
+      top: 50px;
+      left: 150px;
+      display: flex;
+      gap: 30px;
+}
+	.button_T {
+      background-color: #020e42;
+      color: #61dfff;
+      padding: 12px 24px;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+	  font-family: 'Nova Script', cursive;
+      transition: background-color 0.3s ease;
+    }
+	.translate-img-button {
+      width: 70px;
+      height: auto;
+      transition: transform 0.2s ease;
+      cursor: pointer;
+      border-radius: 30%;
+      box-shadow: 0 0 8px rgba(255, 255, 255, 0.5),
+              0 0 16px rgba(208, 128, 255, 0.6);
+      transition: 0.3s ease;
+    }
+    .translate-img-button:hover {
+      transform: scale(1.05);
+      border-radius: 50%;
+      box-shadow: 0 0 8px rgba(255, 255, 255, 0.5),
+              0 0 16px rgba(208, 128, 255, 0.6);
+      transition: 0.3s ease;
+ 
+    }
+	.button-box {
+      position: absolute;
+      top: 93px;
+      left: 40px;
+      display: flex;
+      gap: 50px;
+}
+
+   
+
+	#sumire-response {
+      position: fixed;
+      left: 60%;
+      top: 280px;
+      transform: translateX(-50%);
+      z-index: 100;
+    }
+	.sumire-wrapper {
+      position: relative;  
+      display: inline-block;
+    }
+	.sumire-container {
+      display: block;    
+      position: relative;
+      
+	}
+
+    .sumire-avatar {
+      height: 480px;
+      border-radius: 32px;
+	  border: 2px solid #8c22a3; 
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	
+    }
+
+    .sumire-bubble {
+      position: absolute;
+      top:  100px; 
+      left: 260px; 
+	  width: fit-content;
+	  min-width: 200px;   
+      max-width: 300px;  
+      background: transparent; 
+      padding: 12px 16px;
+      border-radius: 12px;
+      font-family: 'Nova Script', cursive;
+      font-size: 14px;
+      color: #D3D3FF;
+      box-shadow: 0 0 8px #6A4F73;
+      backdrop-filter: blur(4px);
+      z-index: 10;
+    }
+
+
+
+	.sumire-input-box {
+      position: absolute;
+      bottom: 16px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 8px;
+      z-index: 10;
+    }
+
+
+    #user-input {
+      padding: 8px;
+      width: 200px;
+      font-size: 14px;
+      position: relative;
+	  background-color: transparent;
+	  color: #D3D3FF ;
+      border: 2px solid #8c22a3;
+	  border-radius: 32px;
+	  z-index: 10;
+	 
+}     
+
+    #submit-button {
+       padding: 8px 16px;
+       background-color: transparent;
+	   box-shadow: 0 0 12px #8c22a3;
+       color: #D3D3FF;
+       border: 2px solid #8c22a3;
+       border-radius: 32px;
+       cursor: pointer;
+}
+    #user-input:placeholder {
+       color: #B3D3FF; 
+       opacity: 1;     
+}
+.button_containerR{
+      position: absolute;
+      top: 400px;
+      left: 5px;
+      z-index: 100;
+}
+	
+.right_button{
+      width: 70px;
+      height: auto;
+      border-radius: 100%;
+      transition: transform 0.3s ease;
+    }
+
+.right-img-button{
+      width: 130px;
+      height: auto;
+      transition: transform 0.2s ease;
+      cursor: pointer;
+      border-radius: 25%;
+      box-shadow: 0 0 8px rgba(255, 255, 255, 0.5),
+                  0 0 16px rgba(208, 128, 255, 0.6);
+      transition: 0.3s ease;
+  }
+  
+.right-img-button:hover {
+      transform: scale(1.05);
+      border-radius: 50%;
+      box-shadow: 0 0 8px rgba(255, 255, 255, 0.5),
+                  0 0 16px rgba(208, 128, 255, 0.6);
+      transition: 0.3s ease;
+  }
+  
+.button_containerL{
+      position: absolute;
+      top: 400px;
+      right: 5px;
+      z-index: 100;
+}
+.left_Button{
+      width: 70px;
+      height: auto;
+      border-radius: 100%;
+      transition: transform 0.3s ease;
+    }
+	
+.left-img-button{
+      width: 130px;
+      height: auto;
+      transition: transform 0.2s ease;
+      cursor: pointer;
+      border-radius: 25%;
+      box-shadow: 0 0 8px rgba(255, 255, 255, 0.5),
+                  0 0 16px rgba(208, 128, 255, 0.6);
+      transition: 0.3s ease;
+   }	
+  
+.left-img-button:hover {
+      transform: scale(1.05);
+      border-radius: 50%;
+      box-shadow: 0 0 8px rgba(255, 255, 255, 0.5),
+                  0 0 16px rgba(208, 128, 255, 0.6);
+      transition: 0.3s ease;
+   }
+.intro-text {
+      position: absolute;
+      top: 260px;
+      left: 200px;
+      width: 750px;
+      font-family: 'Nova Script', cursive;
+      font-size: 20px;
+      color: white;
+}
+
+.bot-guide {
+      position: absolute;
+      bottom: 140px;
+      right: 260px;
+      width: 300px;
+      font-family: 'Nova Script', cursive;
+      font-size: 16px;
+      color: #ffccff;
+      background: transparent;
+      padding: 10px;
+      border-radius: 12px;
+}
+
